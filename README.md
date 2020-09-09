@@ -5,3 +5,7 @@
 ### Features included so far:
 - Obtaining Lyrics from a Genius link
 
+##### This library Requires:
+- BeautifulSoup (bs4)
+- urllib (urllib3)
+- requests (requests)
