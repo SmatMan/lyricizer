@@ -9,3 +9,18 @@
 - BeautifulSoup (bs4)
 - urllib (urllib3)
 - requests (requests)
+
+
+### Example:
+
+An example of obtaining song lyrics from a Genius link:
+```
+>>> from get_lyrics_from_link import searchFromLink
+>>> output = searchFromLink("https://genius.com/Away-and-midoca-too-close-lyrics")
+>>> print(output)
+
+[Verse 1]
+Take the long way back to me
+...
+```
+It's that easy!
