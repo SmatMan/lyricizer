@@ -1,5 +1,7 @@
-# Lyricizer - A Python Library to Communicate with the Genius API
+# Lyricizer - A Python Library to Communicate with [https://genius.com](Genius) without an API key. It makes use of a website scraper to obtain lyrics and (soon) searches.
 
-### This project allows you to communicate with the Genius API to obtain song lyrics, artists, and release date. 
+## *Disclaimer:* This library was created for fun and is not a good alternative to the API. Due to it using a scraper, it has cooldowns that can and will block your usage in some cases. If you want to use this in a project, you should much rather use [https://pypi.org/project/lyricsgenius/](LyricsGenius), which requires an API key.
 
-#### You will need to generate an API token [https://genius.com/api-clients](here) to make use of this project.
+### Features included so far:
+- Obtaining Lyrics from a Genius link
+
